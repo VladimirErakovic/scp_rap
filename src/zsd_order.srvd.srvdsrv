@@ -1,0 +1,5 @@
+@EndUserText.label: 'Service definition for Order'
+define service ZSD_ORDER {
+  expose ZBO_A_ORDER;
+  expose ZBO_ITEM;
+}
